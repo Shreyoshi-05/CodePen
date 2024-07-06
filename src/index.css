@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* colors{
+  primary:#131417;
+  sec :#1E1F26;
+  primarytext:#868CA0;
+  text555:#555
+} */
+
+@import url(https://fonts.googleapis.com/css?family=Lora:regular,500,600,700,italic,500italic,600italic,700italic);
+
+body{
+  background-color: #131417;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  height: 90vh;
+  width: 100%;
+}
+

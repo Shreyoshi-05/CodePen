@@ -1,0 +1,18 @@
+.CodeMirror{
+    margin-top: 0;
+    height: 45vh;
+    /* background-color:#3b3c49; */
+    background-color: #252738;
+}
+#box{
+    width: 71vh;
+
+}
+#codeEditor{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(24, 19, 19);
+}
+/* container{
+    height: 41vh;
+} */

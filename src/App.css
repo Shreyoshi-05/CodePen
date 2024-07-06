@@ -1,0 +1,190 @@
+
+
+#nav-content{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 15px;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+#nav-content a{
+  text-decoration: none;
+  color: white;
+  font-style: 18px;
+  width: 100px;
+}
+/* #navBar{
+  background-color:#3b3c49;
+  height: 9vh;
+
+} */
+#navBar a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10vh;
+  height: 100%;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.nav-menu{
+  padding-top: 20px;
+  background-color:#3b3c49;
+  width: 280px;
+  height: 100vh;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  transition: 850ms;
+}
+.nav-menu.active{
+  left: 0;
+  transition: 350ms;
+}
+.menu-bers{
+  color: aliceblue;
+
+}
+/* .navber-toggle a{
+  color: white;
+  text-decoration: none;
+} */
+#back{
+  text-decoration: none;
+  color: aliceblue;
+  list-style: none;
+}
+#searchPage{
+  width: 120vh;
+  height: 7vh;
+  margin-left: 40vh;
+  padding:4px 40px;
+  background-color:  #3b3c49;
+  margin-left: 70vh;
+  display: flex;
+  align-items: center;
+
+}
+.search-bar input{
+  padding: 10px;
+  width: 90vh;
+  padding:8px 20px;
+  border: 1px solid rgb(148, 144, 162);
+  background-color: #3b3c49;
+  color: white;
+}
+.search-bar a{
+  background-color: aqua;
+  padding:8px 10px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+#logo{
+  width: 200px;
+}
+#logo-login{
+  width: 200px;
+  margin-left: 96vh;
+  margin-top: 30px;
+  text-align: center;
+}
+#input-box{
+  width: 65vh;
+  height: 70vh;
+  padding: 40px;
+  /* background-color: antiquewhite; */
+  position: relative;
+  left: 80vh;
+  top: 9vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  border: 2px solid rgb(142, 136, 126);
+  background-color: #3b3c49 ;
+}
+#signup-box{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: auto;
+
+}
+#signup-box input{
+  padding: 13px 40px;
+  border-radius: 5px;
+  border: 2px solid rgb(158, 151, 137);
+  background-color: #3b3c49;
+  color: white;
+}
+#signup-box button{
+  padding: 13px 40px;
+  border-radius: 5px;
+  border: 2px solid wheat;
+}
+#signup-box button a{
+  text-decoration: none;
+}
+#codepage{
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+}
+#codepage header{
+  width: 100%;
+  height: 8vh;
+  background-color: rgb(26, 21, 21);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 1px solid white; */
+  align-items: center;
+  padding: 0 20px;
+}
+/* #codepage header #logo{
+  width: 150px;
+  margin-left: 100px;
+  margin-bottom: 32px;
+} */
+#codepage header a{
+  width: 90px;
+  height: 5vh;
+  background-color: greenyellow;
+  margin-bottom: 32px;
+  margin-right: 40px;
+  text-decoration: none;
+  padding: 6px 15px;
+  color: black;
+  border-radius: 3px;
+  margin-top: 30px;
+}
+#upper{
+  margin-top: 3px;
+  height: 5vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+
+}
+.left{
+  display: flex;
+  background-color: #30303b;
+  margin-top: 10px;
+  padding: 2px 9px;
+  box-shadow: 1px 1px 3px white;
+  margin-left: 2px;
+
+}
+.left span{
+  margin-right: 13px;
+  background-color: rgb(218, 13, 13);
+  padding:0 5px;
+}
